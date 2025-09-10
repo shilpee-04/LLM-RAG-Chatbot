@@ -1,12 +1,30 @@
-HEAD
-#RAG Chatbot with LangChain
-This project is a sophisticated Retrieval-Augmented Generation (RAG) chatbot built using the powerful LangChain framework. It is designed to handle complex conversational and retrieval-based tasks by combining the generative power of large language models (LLMs) with a robust data retrieval system.
+# RAG Chatbot with LangChain
 
-Features
-Conversational Abilities: The chatbot can engage in natural, multi-turn conversations while maintaining context.
+This project is a **Retrieval-Augmented Generation (RAG) chatbot** built using the **LangChain** framework. It combines the generative capabilities of large language models (LLMs) with a retrieval system to deliver accurate, context-aware, and knowledge-grounded responses.
 
-Knowledge Retrieval: It intelligently retrieves relevant information from an external knowledge base to provide accurate and grounded responses.
+---
 
-Prompt Engineering: Utilizes prompt engineering techniques to optimize the performance and relevance of the LLM's output.
+## 🚀 Features
 
-Semantic Search: Employs embeddings and vector stores for efficient semantic search, ensuring relevant documents are retrieved based on meaning, not just keywords.
+- **Conversational Abilities**  
+  Engages in natural, multi-turn conversations while maintaining context.
+
+- **Knowledge Retrieval**  
+  Retrieves relevant information from an external knowledge base to ensure responses are factual and grounded.
+
+- **Prompt Engineering**  
+  Uses carefully designed prompts to optimize the quality and relevance of the model’s outputs.
+
+- **Semantic Search**  
+  Leverages embeddings and vector stores for efficient semantic search, retrieving documents based on meaning rather than exact keywords.
+
+---
+
+## 🛠️ Tech Stack
+
+- **[LangChain](https://www.langchain.com/)** → Orchestrates the RAG pipeline  
+- **OpenAI GPT Models** → Powers text generation and dialogue capabilities  
+- **[SentenceTransformers](https://www.sbert.net/)** → Creates high-quality text embeddings for semantic search  
+- **Python** → The core programming language for development  
+
+
