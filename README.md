@@ -32,10 +32,10 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** built using t
 ## 📂 Project Structure
 
 ├── data: Knowledge base documents     
-├── retriever: Code for embeddings and vector store
-├── chatbot: Chat pipeline (LangChain chains & prompts)
-├── app.py: Entry point for running the chatbot
-├── requirements.txt: Dependencies
+├── retriever: Code for embeddings and vector store               
+├── chatbot: Chat pipeline (LangChain chains & prompts)          
+├── app.py: Entry point for running the chatbot             
+├── requirements.txt: Dependencies                     
 └── README.md
 
 
