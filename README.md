@@ -27,4 +27,6 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** built using t
 - **[SentenceTransformers](https://www.sbert.net/)** → Creates high-quality text embeddings for semantic search  
 - **Python** → The core programming language for development  
 
+---
 
+<pre> ```markdown ## 📂 Project Structure . ├── data/ # Knowledge base documents ├── retriever/ # Code for embeddings and vector store ├── chatbot/ # Chat pipeline (LangChain chains & prompts) ├── app.py # Entry point for running the chatbot ├── requirements.txt # Dependencies └── README.md # Project documentation ``` </pre>
